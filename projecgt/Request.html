@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='projecgt.css'>
+    
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href='projecgt.html'>Home</a></li>
+            <li class="selected"><a href='#'>Request</a></li>
+            <li><a href='#'>Contact Us</a></li>
+            <li><a href="#">Services</a></li>
+        </ul>
+    </nav>
+    <section class="sec">
+        <p>
+            Please fill this form to request the blood type you need
+        </p>
+    </section>
+    <section class="sec">
+        <div class="div11111">
+            <form>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+                <label for="email">email</label>
+                <input type="email" name="email" id="email">
+                <label for="phone_no">phone no</label>
+                <input type="tel" name="phone_no" id="phone_no">
+                <label for="donation_type">Request type</label>
+                <select name="donation_type" id="donation_type">
+                    <option value="1">Blood</option>
+                    <option value="2">Plsama</option>
+                </select>
+                <label for="blood-group">Blood Group:</label>
+                <select id="blood-group" name="blood-group">
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                </select>
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="4"></textarea>
+                <label for="amount">amount in L</label>
+                <input type="number" id="amount" name="amount">
+                <label for="notes">Request</label>
+                <textarea id="notes" name="notes" rows="4"></textarea>
+                <button type="submit">submit</button>
+                <button type="reset">reset</button>
+            </form>
+        </div>
+        <img src="resorceoimageo/hi.jpg" alt="Blood" class="im">
+    </section>
+    <footer>
+        <p>&copy; 2023 Blood Donation. All rights reserved.</p>
+    </footer>
+</body>
+</html>
